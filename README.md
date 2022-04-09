@@ -1,3 +1,3 @@
 # movieblog
 
-it's just me practicing html and css for the first time
+1st HTML + CSS Practice
