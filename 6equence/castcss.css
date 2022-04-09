@@ -1,0 +1,36 @@
+body{
+	background: greenyellow;
+}
+
+.casts-parent { 
+	height: 400px;
+	width: 300px;
+	border: 4px solid;
+	display: flex;
+
+}
+
+.casts-child {
+	color: indianred;
+	background: yellow;
+	border: 1px solid black;
+	flex-basis: 80px;
+}
+
+#moonbyul {
+	/* order: 1; */
+}
+
+#mirani {
+	/* order: 3; */
+
+}
+
+#seori {
+	/* order: 2; */
+
+}
+
+#kanghyun {
+	/* order: 4; */
+}

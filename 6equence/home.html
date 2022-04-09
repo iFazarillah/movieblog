@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> 6equence | Official Websites </title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
+
+	<style>
+
+		body {
+			font-family: sans-serif;
+			font-size: 12px;
+			background-image: url(gambar/moonbyulwpp.jpg);
+			
+
+
+		}
+		header, nav, main, aside, footer {
+			border: 2px none; margin: 7px; padding: 5px;
+
+		}
+
+		#title6equence {
+			font-size: 60px;
+		}
+
+		section {
+			border: 1px solid dimgrey; margin: 3px; padding: 5px; text-align: justify; text-indent: 15px; letter-spacing: 1px; word-spacing: 2.5px;
+
+		}
+
+
+		header{
+			text-align: center;
+			border-radius: 20px;
+			/*horizontal vertical blur color*/
+			text-shadow: 2px 4px 4px skyblue ;
+			font-family: 'Smooch Sans', sans-serif;
+			font-size: 22px; 
+		}
+		
+		.kotak:before{
+			content: '';
+			background-color: rgba(0, 0, 0, 0.7);
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%; width: 100%;
+			display: none;
+		}
+		.in-kotak {
+			text-align: center;
+			width: 200px;
+			height: 125px;
+			background-color: lightpink;
+			padding: 10px;
+			border-radius: 40px;
+			position: fixed;
+			left: 50%;
+			margin-left: -150px;
+			transform: translateY(-300%);
+			transition: transform 0.6s ease;
+		}
+
+		#bolclose{
+			text-align: center;
+		}
+		.kotak:target .in-kotak{
+			transform: translateY(0%);
+
+		}
+		.kotak:target:before {
+			display: block;
+		}
+		.tombolsuli{
+			text-decoration: none;
+			color: black;
+		}
+		#suli {
+			text-align: right;
+			margin-right: 50px;
+		}
+
+		nav{
+			text-align: center;
+
+		}
+
+		.menu{
+			text-decoration: none;
+			display: inline-block;
+			color: whitesmoke;
+			border-radius: 7px;
+			box-shadow: 0 3px 3px 0 dimgrey;
+			width: 150px;
+			padding: 5px 10px;
+			margin: 15px;
+			font-size: 15px;
+			background: #ff2800; 
+			opacity: 0.9;
+		}
+
+							/* unvisited link */
+					.menu:link {
+					  background-color:#ff2800;
+					}
+
+					/* visited link */
+					.menu:visited {
+					  background-color:#400000;
+					}
+
+					/* mouse over link */
+					.menu:hover {
+					  background-color:blanchedalmond;
+					  color: black;
+					}
+
+					/* selected link */
+					.menu:active {
+					  background-color:#AA4344; }
+
+		main{
+			float: left;
+			width: 70%;
+			/* horizontal vertical blur spread color */
+			box-shadow: 0 5px 5px 2px dimgrey; 
+			background: ghostwhite;
+
+		}
+
+		aside{
+			float: right;
+			width: 25%;
+			background-color: rgba(255, 40, 0, 0.2);
+		}
+
+		footer{
+			clear: both;
+			text-align: center;
+			
+		}
+		#search {
+			float: right;
+			margin-right: 20px;
+		}
+		
+		
+		
+	</style>
+</head>
+<body>
+	<div id="suli">
+	<a href="#daftar" class="tombolsuli"> <b>Sign Up</b> </a> &nbsp; &nbsp;
+		<a href="#login" class="tombolsuli"> <b>Login</b> </a>
+		<div class="kotak" id="daftar">
+			<div class="in-kotak" >
+				<p> Welcome aboard cows! </p>
+				<input type="text" name="name" value="" placeholder="email"> <br>
+				<input type="text" name="name" value="" placeholder="password"> <br>
+				<button> Sign Up </button> <br>
+				<a href="#closed" class="tombolsuli"> Close </a>
+			</div>
+			
+		</div>
+
+		<div class="kotak" id="login">
+			<div class="in-kotak">
+				<p> Welcome back cows! </p>
+				<input type="text" name="name" value="" placeholder="e-mail"> <br>
+				<input type="text" name="name" value="" placeholder="password"><br>
+				<button> Log In </button> <br>
+				<a href="#closed" class="tombolsuli" id="bolclose"> Close </a>
+			</div>
+			
+		</div>
+		</div>
+		<br>
+		<div> <input type="search" name="search" id="search" placeholder="Search on sites..."></div>
+	<header>
+		
+		<h1 id="title6equence"> 6equence : Mini Series </h1>
+		<h3> The journey continues </h3>
+
+	</header>
+
+	<nav>
+		<a href="home.html" class="menu no-01"> Home </a> 
+		<a href="Storyline.html" class="menu no-02"> Storyline </a> 
+		<a href="cast.html" class="menu no-03"> Casts </a> 
+		<a href="News.html" class="menu no-04"> News </a> 
+		<a href="more.html" class="menu no-05"> More </a> 
+	</nav>
+
+	<main>
+		<article>
+			<figure>
+				<img src="gambar/6equence.png" alt="6equence first teaser" width="600px" id="moonbyul">
+				<figcaption>
+					First official teaser 6equence : The Series &copy; 2022 月星 International
+				</figcaption> 
+			</figure>
+			<section> 
+				<h2> 6equence : the Series</h2>
+				<h4> Available now on all streaming services</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+
+			<section>
+
+				<h2> A movie now turned into 6 episode mini series </h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+				<br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<br>
+
+			</section>
+
+			<section>
+
+				<h2>The expanding drama </h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+
+			
+		</article>
+		
+
+	</main>
+
+	<aside>
+		<h2> Episodes </h2>
+		<ul>
+			<li> <a href="#"> Pilot : Synopsys </a> </li>
+			<li><a href="#"> G999 </a></li>
+			<li><a href="#"> Shutdown </a></li>
+			<li><a href="#"> Lunatic </a></li>
+			<li><a href="#"> Ddu Ddu </a></li>
+			<li><a href="#"> For Me</a></li>
+			<li><a href="#"> Specials : Bloopers & NG</a></li>
+		</ul>
+		
+	</aside>
+
+
+	<footer>
+		<p>&copy; 2022 月星 International</p>
+	</footer>
+</body>
+</html>
